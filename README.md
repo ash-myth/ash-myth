@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Ashmit Chatterjee</h1>
-<h3 align="center">A passionate data analytics from India</h3>
+<h3 align="center">A passionate data analyst from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ash-myth&label=Profile%20views&color=0e75b6&style=flat" alt="ash-myth" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ash-myth" alt="ash-myth" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/ashmithchatta" target="blank"><img src="https://img.shields.io/twitter/follow/ashmithchatta?logo=twitter&style=for-the-badge" alt="ashmitchatta" /></a> </p>
+<p align="left"> <a href="https://instagram.com/ashmitchatta" target="blank"><img src="https://img.shields.io/twitter/follow/ashmitchatta?logo=twitter&style=for-the-badge" alt="ashmitchatta" /></a> </p>
 
 - 🌱 I’m currently learning **DSA in C ,Python**
 
