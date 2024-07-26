@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **DSA in C ,Python**
 
-- 💬 Ask me about **Refill shooting,Sketching**
+- 💬 Ask me about **Rifle shooting,Sketching**
 
 - 📫 How to reach me **ashmit.chatterjee@gmail.com**
 
