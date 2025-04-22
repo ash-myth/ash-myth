@@ -23,7 +23,7 @@
 
 - 🔭 Currently pursuing **B.Tech in CSE (Data Science)** @ MRIIRS  
 - 💻 Exploring **DSA (C, Python)** and sharpening my AI/ML toolkit  
-- 🏅 **All India Junior (U-21) Rifle Rank: 4th**  
+- 🏅 **All India Junior (U-21) Air Rifle Men Rank: 4th**  
 - 🎯 **Gold Medalist** – Khelo India Youth Games 2024  
 - 🧠 Love building smart tools with data + algorithms  
 
