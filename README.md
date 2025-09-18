@@ -59,20 +59,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=ash-myth&show_icons=true&theme=radical" />
-</p>
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ash-myth&layout=compact&theme=radical" />
-</p>
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ash-myth&theme=radical" />
-</p>
-
----
-
 ### 🏆 Achievements
 
 - 🥇 **Khelo India Youth Games Gold Medalist**
