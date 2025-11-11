@@ -28,7 +28,7 @@
 - 🧠 Love building smart tools with data + algorithms  
 
 📄 [Check out my resume](https://drive.google.com/file/d/1uj6-9jKQLrY_HQh2f02V82nT_L4xhh-Z/view?usp=sharing) 
-📊 [Explore my Projects](https://drive.google.com/drive/folders/13kKaUiYU9t9wvxyP_ZtQIfYj5kuYef4W?usp=sharing)
+📊 [Explore my Projects](https://github.com/ash-myth?tab=repositories)
 
 ---
 
