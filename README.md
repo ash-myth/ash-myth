@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ashmit-chatterjee-013511288" target="_blank">
+  <a href="https://linkedin.com/in/ashmit-chatterjee" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="https://instagram.com/ashmitchatta" target="_blank">
@@ -27,7 +27,7 @@
 - 🎯 **Gold Medalist** – Khelo India Youth Games 2024  
 - 🧠 Love building smart tools with data + algorithms  
 
-📄 [Check out my resume](https://drive.google.com/file/d/1uj6-9jKQLrY_HQh2f02V82nT_L4xhh-Z/view?usp=sharing) 
+📄 [Check out my resume](https://drive.google.com/file/d/1VI94F-UT7kKYozbXJXGoWMmLIsW8jYJI/view?usp=sharing) 
 📊 [Explore my Projects](https://github.com/ash-myth?tab=repositories)
 
 ---
@@ -49,7 +49,6 @@
 
 <p>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" />
@@ -64,7 +63,7 @@
 - 🥇 **Khelo India Youth Games Gold Medalist**
 - 🥇🥉 Multiple medalist at National and Inter-University shooting championships
 - 📊 Completed internships and projects in Data Analytics and AI
-- 📜 Certified in **Azure AI, OCI AI**, **DeepLearning.AI**, and **DataCamp**
+- 📜 Certified in **Azure AI, GCP, Oracle Vector DB**, **DeepLearning.AI**, and **DataCamp**
 
 ---
 
