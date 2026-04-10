@@ -6,13 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ashmit-chatterjee-013511288">
+  <a href="https://linkedin.com/in/ashmit-chatterjee">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://kaggle.com/ashmitchatterjee">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  </a>
-  <a href="https://www.leetcode.com/ashmitchatta">
+  <a href="https://leetcode.com/u/ash-myth/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   <a href="mailto:ashmit.chatterjee@gmail.com">
