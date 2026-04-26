@@ -15,6 +15,9 @@
   <a href="mailto:ashmit.chatterjee@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://ashmit-chatterjee.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-0a0a0f?style=for-the-badge&logo=netlify&logoColor=white" />
+  </a>
 </p>
 
 ---
