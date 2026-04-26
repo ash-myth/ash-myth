@@ -29,7 +29,7 @@
 - 🎯 **Gold Medalist** — Khelo India Youth Games 2024 | **4th Rank** — FISU World University Trials
 - 💡 100+ LeetCode problems solved | DSA in C++ & Python
 
-📄 [Resume](https://drive.google.com/file/d/13fz79k3VnuJn3XYvSKiNl601zISc_wIr/view?usp=sharing) · 📊 [Projects](https://github.com/ash-myth?tab=repositories)
+📄 [Resume](https://drive.google.com/file/d/1EoN5iK2W9LIhbxiA475SmR4dkvYoP_Na/view?usp=sharing) · 📊 [Projects](https://ashmit-chatterjee.netlify.app/#projects)
 
 ---
 
