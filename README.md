@@ -70,10 +70,11 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — Tesseract OCR, shot diagnostics, PDF reports | Python, OpenCV, Streamlit |
 | [AutoEDA Pro](https://autoeda-pro-ashmitchatterjee.streamlit.app/) | Automated EDA & AutoML platform — 5 model benchmarking, PDF reports, 30MB+ datasets | Python, Scikit-learn, Streamlit |
 | [AI Resume Matcher](https://resume-ranker-ashmitchatterjee.streamlit.app/) | NLP pipeline with BERT embeddings, 85%+ semantic accuracy, 50+ concurrent docs | Python, BERT, NLP, Streamlit |
 | [AQI Prediction System](https://github.com/ash-myth/AQI_Analysis/blob/main/AQI_Prediction.ipynb) | End-to-end data pipeline on 40K+ time-series points, R² = 0.87 | XGBoost, Random Forest, Python |
+| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — Tesseract OCR, shot diagnostics, PDF reports | Python, OpenCV, Streamlit |
+
 
 ---
 
