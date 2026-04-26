@@ -22,7 +22,7 @@
 ### 🚀 About Me
 
 - 🎓 B.Tech in CSE (Data Science) @ MRIIRS, Faridabad — **CGPA: 8.91**
-- 🤖 Building real ML systems — AutoML platforms, NLP pipelines, AQI forecasters
+- 🤖 Building real ML systems — AutoML platforms, NLP pipelines, shooting performance analytics
 - 📄 **IEEE Published** — ICAICCIT 2025 (AI-Driven Drug Discovery & Symptom-Aware Chatbot)
 - 🏅 **Top 100** — GDG Cloud Kochi, Building End-to-End Serverless Data Agents
 - 💼 Interned at **IBM SkillsBuild** and **ShadowFox** in Data Analytics & Data Science
@@ -63,6 +63,7 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
+| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — Tesseract OCR, shot diagnostics, PDF reports | Python, OpenCV, Streamlit |
 | [AutoEDA Pro](https://autoeda-pro-ashmitchatterjee.streamlit.app/) | Automated EDA & AutoML platform — 5 model benchmarking, PDF reports, 30MB+ datasets | Python, Scikit-learn, Streamlit |
 | [AI Resume Matcher](https://resume-ranker-ashmitchatterjee.streamlit.app/) | NLP pipeline with BERT embeddings, 85%+ semantic accuracy, 50+ concurrent docs | Python, BERT, NLP, Streamlit |
 | [AQI Prediction System](https://github.com/ash-myth/AQI_Analysis/blob/main/AQI_Prediction.ipynb) | End-to-end data pipeline on 40K+ time-series points, R² = 0.87 | XGBoost, Random Forest, Python |
@@ -74,7 +75,7 @@
 - 📄 **IEEE Paper** — AI-Driven Web Platform with Symptom-Aware Chatbot, ICAICCIT 2025
 - ☁️ **Azure AI Fundamentals** — Microsoft
 - 🔮 **AI Foundations & Vector Search** — Oracle
-- 🏆 **Top 100** — Code Vipassana S14(GDG Cloud Kochi - Building Serverless Data Agents on Google Cloud)
+- 🏆 **Top 100** — Code Vipassana S14 (GDG Cloud Kochi - Building Serverless Data Agents on Google Cloud)
 
 ---
 
