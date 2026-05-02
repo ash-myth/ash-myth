@@ -30,7 +30,7 @@
 - 🏅 **Top 100** — GDG Cloud Kochi, Building End-to-End Serverless Data Agents
 - 💼 Interned at **IBM SkillsBuild** and **ShadowFox** in Data Analytics & Data Science
 - 🎯 **Gold Medalist** — Khelo India Youth Games 2024 | **4th Rank** — FISU World University Trials
-- 💡 170+ LeetCode problems solved | DSA in C++ & Python
+- 💡 200+ LeetCode problems solved | DSA in C++ & Python
 
 📄 [Resume](https://drive.google.com/file/d/1EoN5iK2W9LIhbxiA475SmR4dkvYoP_Na/view?usp=sharing) · 📊 [Projects](https://ashmit-chatterjee.netlify.app/#projects)
 
