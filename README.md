@@ -85,9 +85,9 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Hindi ML Course Assistant](https://github.com/ash-myth/hindi-ml-course-assistant) 🟢 | Cross-lingual RAG over 38 Hindi ML lectures — 17,619 timestamped chunks, FAISS + CrossEncoder reranking, 80% Hit@3, CI/CD quality gate on every push | Python, FastAPI, FAISS, LangSmith, Docker, Whisper, Sentence-Transformers |
-| [AutoEDA Pro](https://autoeda-pro-ashmitchatterjee.streamlit.app/) | Automated EDA & AutoML platform — 5 model benchmarking, LLM analyst layer via Groq API, PDF reports, 30MB+ datasets | Python, Scikit-learn, Groq API, Streamlit |
-| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — reverse-engineered proprietary SQLite blobs, shot archetype classification, fatigue-delta tracking, PDF diagnostics | Python, OpenCV, Tesseract OCR, SQLite, ReportLab |
+| [Hindi ML Course Assistant](https://ash-myth.github.io/ml-course-assistant/) | Cross-lingual RAG over 38 Hindi ML lectures — 17,619 timestamped chunks, FAISS + CrossEncoder reranking, 80% Hit@3, CI/CD quality gate on every push | Python, FastAPI, FAISS, LangSmith, Docker, Whisper, Sentence-Transformers |
+| [AutoEDA Pro](https://autoeda-pro.onrender.com) | Automated EDA & AutoML platform — 5 model benchmarking, LLM analyst layer via Groq API, PDF reports, 30MB+ datasets | Python, Scikit-learn, Groq API, Streamlit |
+| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) | Shooting performance intelligence — reverse-engineered proprietary SQLite blobs, shot archetype classification, fatigue-delta tracking, PDF diagnostics | Python, OpenCV, Tesseract OCR, SQLite, ReportLab |
 | [AI Resume Matcher](https://resume-ranker-ashmitchatterjee.streamlit.app/) | NLP pipeline with BERT embeddings, 85%+ semantic accuracy, 50+ concurrent docs | Python, BERT, NLP, Streamlit |
 | [AQI Prediction System](https://github.com/ash-myth/AQI_Analysis/blob/main/AQI_Prediction.ipynb) | End-to-end data pipeline on 40K+ time-series points, R² = 0.87 | XGBoost, Random Forest, Python |
 
