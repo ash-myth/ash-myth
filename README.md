@@ -25,7 +25,7 @@
 ### 🚀 About Me
 
 - 🎓 B.Tech in CSE (Data Science) @ MRIIRS, Faridabad — **CGPA: 8.91**
-- 🤖 Building real ML systems — AutoML platforms, NLP pipelines, shooting performance analytics
+- 🤖 Building real ML systems — cross-lingual RAG pipelines, AutoML platforms, shooting performance analytics
 - 📄 **IEEE Published** — ICAICCIT 2025 (AI-Driven Drug Discovery & Symptom-Aware Chatbot)
 - 🏅 **Top 100** — GDG Cloud Kochi, Building End-to-End Serverless Data Agents
 - 💼 Interned at **IBM SkillsBuild** and **ShadowFox** in Data Analytics & Data Science
@@ -51,6 +51,9 @@
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge&logo=meta&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-8A2BE2?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **Data**
 
@@ -60,24 +63,33 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
 
+**Backend & MLOps**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
 **Cloud & Tools**
 
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![HuggingFace Spaces](https://img.shields.io/badge/HuggingFace_Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 ---
 
 ### 🔬 Featured Projects
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [AutoEDA Pro](https://autoeda-pro-ashmitchatterjee.streamlit.app/) | Automated EDA & AutoML platform — 5 model benchmarking, PDF reports, 30MB+ datasets | Python, Scikit-learn, Streamlit |
+| [Hindi ML Course Assistant](https://github.com/ash-myth/hindi-ml-course-assistant) 🟢 | Cross-lingual RAG over 38 Hindi ML lectures — 17,619 timestamped chunks, FAISS + CrossEncoder reranking, 80% Hit@3, CI/CD quality gate on every push | Python, FastAPI, FAISS, LangSmith, Docker, Whisper, Sentence-Transformers |
+| [AutoEDA Pro](https://autoeda-pro-ashmitchatterjee.streamlit.app/) | Automated EDA & AutoML platform — 5 model benchmarking, LLM analyst layer via Groq API, PDF reports, 30MB+ datasets | Python, Scikit-learn, Groq API, Streamlit |
+| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — reverse-engineered proprietary SQLite blobs, shot archetype classification, fatigue-delta tracking, PDF diagnostics | Python, OpenCV, Tesseract OCR, SQLite, ReportLab |
 | [AI Resume Matcher](https://resume-ranker-ashmitchatterjee.streamlit.app/) | NLP pipeline with BERT embeddings, 85%+ semantic accuracy, 50+ concurrent docs | Python, BERT, NLP, Streamlit |
 | [AQI Prediction System](https://github.com/ash-myth/AQI_Analysis/blob/main/AQI_Prediction.ipynb) | End-to-end data pipeline on 40K+ time-series points, R² = 0.87 | XGBoost, Random Forest, Python |
-| [SCATT Analyser](https://scattanalyser-ashmit.streamlit.app/) 🟢 | Shooting performance intelligence — Tesseract OCR, shot diagnostics, PDF reports | Python, OpenCV, Streamlit |
-
 
 ---
 
@@ -99,7 +111,7 @@
 | 🥉 Bronze | Indonesian Open Championship | 2020 |
 | 🥉 Bronze | All India University Games | 2024 |
 | 3🥇 4🥉 | National Championships | 2023–2025 |
-| 1🥇 3🥈 | All India KSSM | 2024 |
+| 1🥇 3🥈 | All India KSSM | 2024 & 2026 |
 
 ---
 
