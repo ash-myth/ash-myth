@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0A0A0F&height=180&section=header&text=Ashmit%20Chatterjee&fontSize=42&fontColor=E8A020&animation=fadeIn" width="100%" alt="Ashmit Chatterjee Header" />
+  <img src="assets/banner.svg" width="100%" alt="Ashmit Chatterjee // Production Machine Learning &amp; Precision Systems" />
 </p>
 
 <p align="center">
   <a href="https://github.com/ash-myth">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=F0ECC4&center=true&vCenter=true&width=750&lines=NLP+Intern+%40+Miimansa+AI+(ABDM+Health+Stack);IEEE+Published+Researcher+(ICAICCIT+2025);National-Level+Shooter+%7C+Khelo+India+Gold+Medalist;Sub-Second+Retrieval+%C2%B7+Adaptive+ML+%C2%B7+Distributed+Pipelines" alt="Typing Subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1200&color=E8A020&center=true&vCenter=true&width=800&lines=%24+abdm-bus+--stream%3A+Productionizing+NHA+HIP%2FHIU+milestone+events+in+real-time...;%24+rag-engine+--eval%3A+80%25+Hit%403+retrieval+over+17%2C619+Whisper+chunks+(p95+839ms);%24+recommender+--fit%3A+64.6%25+CV+accuracy+across+13%2C618+curriculum+nodes;%24+scatt-sensor+--telemetry%3A+10.9+bullseye+%C2%B7+sub-millimeter+hold+precision" alt="Live System Telemetry" />
   </a>
 </p>
 

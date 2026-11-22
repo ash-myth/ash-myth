@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="100%">
+  <defs>
+    <!-- Dark glass gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090E" />
+      <stop offset="50%" stop-color="#0C0F17" />
+      <stop offset="100%" stop-color="#06070A" />
+    </linearGradient>
+
+    <!-- Border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8A020" stop-opacity="0.85" />
+      <stop offset="35%" stop-color="#38BDF8" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#22C55E" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#E8A020" stop-opacity="0.75" />
+    </linearGradient>
+
+    <!-- Gold typography gradient -->
+    <linearGradient id="goldName" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFF5DC" />
+      <stop offset="60%" stop-color="#F6C865" />
+      <stop offset="100%" stop-color="#E8A020" />
+    </linearGradient>
+
+    <!-- Laser bottom line gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8A020" stop-opacity="0" />
+      <stop offset="25%" stop-color="#E8A020" stop-opacity="0.9" />
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filters -->
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Background Tech Grid Pattern -->
+    <pattern id="techGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.75" fill="#334155" fill-opacity="0.35" />
+    </pattern>
+
+    <!-- Clip Path for clean window edges -->
+    <clipPath id="windowClip">
+      <rect x="2" y="2" width="916" height="316" rx="14" ry="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes spinClockwise {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spinCounter {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes pulseTarget {
+      0%, 100% { transform: scale(1); opacity: 0.95; }
+      50% { transform: scale(1.12); opacity: 0.45; }
+    }
+    @keyframes pulseGreen {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 3px #22C55E); }
+      50% { opacity: 0.3; filter: drop-shadow(0 0 6px #22C55E); }
+    }
+
+    .reticle-spin-slow {
+      transform-origin: 140px 175px;
+      animation: spinClockwise 24s linear infinite;
+    }
+    .reticle-spin-fast {
+      transform-origin: 140px 175px;
+      animation: spinCounter 14s linear infinite;
+    }
+    .reticle-pulse {
+      transform-origin: 140px 175px;
+      animation: pulseTarget 3s ease-in-out infinite;
+    }
+    .live-dot {
+      animation: pulseGreen 2s infinite ease-in-out;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, Monaco, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+  </style>
+
+  <!-- ================= BASE CONTAINER (CLIPPED) ================= -->
+  <g clip-path="url(#windowClip)">
+    <rect x="2" y="2" width="916" height="316" fill="url(#bgGrad)" />
+    <rect x="2" y="2" width="916" height="316" fill="url(#techGrid)" />
+
+    <!-- Ambient glow spheres inside container -->
+    <circle cx="140" cy="175" r="110" fill="#E8A020" fill-opacity="0.07" filter="url(#glowGold)" />
+    <circle cx="820" cy="80" r="90" fill="#38BDF8" fill-opacity="0.05" filter="url(#glowGold)" />
+    <circle cx="500" cy="270" r="110" fill="#22C55E" fill-opacity="0.04" filter="url(#glowGold)" />
+
+    <!-- ================= TOP WINDOW BAR ================= -->
+    <rect x="2" y="2" width="916" height="38" fill="#0E121D" fill-opacity="0.85" />
+    <line x1="2" y1="40" x2="918" y2="40" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Window controls -->
+    <circle cx="22" cy="20" r="5.5" fill="#EF4444" />
+    <circle cx="38" cy="20" r="5.5" fill="#F59E0B" />
+    <circle cx="54" cy="20" r="5.5" fill="#10B981" />
+
+    <!-- Window terminal title -->
+    <text x="76" y="24" fill="#64748B" class="mono" font-size="11.5" font-weight="500">ashmit@precision-cluster: ~ (prod/nlp-mlops)</text>
+
+    <!-- System Online Badge (Top Right) -->
+    <g transform="translate(738, 13)">
+      <rect x="0" y="0" width="160" height="20" rx="4" fill="#052E16" fill-opacity="0.75" stroke="#166534" stroke-width="0.8" />
+      <circle cx="12" cy="10" r="3.5" fill="#22C55E" class="live-dot" />
+      <text x="22" y="13.5" fill="#4ADE80" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.5">SYS ONLINE · 12ms p95</text>
+    </g>
+
+    <!-- ================= LEFT HUD: 10m RIFLE & ML VECTOR RETICLE ================= -->
+    <!-- Target Center: (140, 175) -->
+    <g id="hud-reticle">
+      <!-- Ambient Target Backing -->
+      <circle cx="140" cy="175" r="86" fill="#05070A" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Outer rotating calibration ring with tick marks -->
+      <g class="reticle-spin-slow">
+        <circle cx="140" cy="175" r="76" fill="none" stroke="#E8A020" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="6,8" />
+        <circle cx="140" cy="175" r="64" fill="none" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="0.8" stroke-dasharray="2,6" />
+        <!-- Tick markers at 0, 90, 180, 270 -->
+        <line x1="140" y1="95" x2="140" y2="103" stroke="#E8A020" stroke-width="2" />
+        <line x1="140" y1="247" x2="140" y2="255" stroke="#E8A020" stroke-width="2" />
+        <line x1="60" y1="175" x2="68" y2="175" stroke="#E8A020" stroke-width="2" />
+        <line x1="212" y1="175" x2="220" y2="175" stroke="#E8A020" stroke-width="2" />
+      </g>
+
+      <!-- Inner counter-rotating notched ring -->
+      <g class="reticle-spin-fast">
+        <circle cx="140" cy="175" r="50" fill="none" stroke="#E8A020" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="14,10" />
+        <circle cx="140" cy="175" r="36" fill="none" stroke="#4ADE80" stroke-opacity="0.3" stroke-width="0.8" stroke-dasharray="8,6" />
+      </g>
+
+      <!-- Static Precision Crosshairs with target rings (Air Rifle Standard) -->
+      <line x1="50" y1="175" x2="230" y2="175" stroke="#334155" stroke-width="0.9" />
+      <line x1="140" y1="85" x2="140" y2="265" stroke="#334155" stroke-width="0.9" />
+
+      <!-- Precision rings: 8, 9, 10 ring -->
+      <circle cx="140" cy="175" r="24" fill="none" stroke="#E8A020" stroke-opacity="0.6" stroke-width="1" />
+      <circle cx="140" cy="175" r="14" fill="#0E121D" stroke="#E8A020" stroke-width="1.2" />
+
+      <!-- 10.9 Bullseye Center (Gold Pulsing Point) -->
+      <circle cx="140" cy="175" r="5" fill="#E8A020" class="reticle-pulse" filter="url(#subtleGlow)" />
+      <circle cx="140" cy="175" r="2" fill="#FFFFFF" />
+
+      <!-- Target Micro-Readouts -->
+      <text x="140" y="80" text-anchor="middle" fill="#E8A020" class="mono" font-size="8.5" font-weight="700" letter-spacing="1">TGT // 10m AIR RIFLE</text>
+      <text x="140" y="278" text-anchor="middle" fill="#38BDF8" class="mono" font-size="8" font-weight="600" letter-spacing="0.8">VECTOR [384D FAISS] · 10.9</text>
+
+      <!-- Telemetry brackets -->
+      <path d="M 52,100 L 52,88 L 64,88" fill="none" stroke="#475569" stroke-width="1.2" />
+      <path d="M 228,100 L 228,88 L 216,88" fill="none" stroke="#475569" stroke-width="1.2" />
+      <path d="M 52,250 L 52,262 L 64,262" fill="none" stroke="#475569" stroke-width="1.2" />
+      <path d="M 228,250 L 228,262 L 216,262" fill="none" stroke="#475569" stroke-width="1.2" />
+    </g>
+
+    <!-- Vertical separator divider with subtle gradient -->
+    <line x1="250" y1="52" x2="250" y2="298" stroke="#1E293B" stroke-width="1" stroke-dasharray="4,4" />
+
+    <!-- ================= RIGHT SECTION: HERO IDENTITY & METRICS ================= -->
+    <!-- CLI Execution Command Line Prompt -->
+    <g transform="translate(272, 68)">
+      <text class="mono" font-size="11.5" font-weight="600">
+        <tspan fill="#E8A020">$</tspan>
+        <tspan fill="#94A3B8"> exec agent --profile=</tspan>
+        <tspan fill="#38BDF8">ashmit.chatterjee</tspan>
+        <tspan fill="#64748B"> --objective=</tspan>
+        <tspan fill="#4ADE80">&quot;extreme_precision&quot;</tspan>
+      </text>
+    </g>
+
+    <!-- Hero Name: ASHMIT CHATTERJEE -->
+    <g transform="translate(272, 112)">
+      <text class="sans" font-size="38" font-weight="900" fill="url(#goldName)" letter-spacing="1.5" filter="url(#subtleGlow)">
+        ASHMIT CHATTERJEE
+      </text>
+    </g>
+
+    <!-- Title & Credentials -->
+    <g transform="translate(272, 139)">
+      <text class="sans" font-size="13.5" font-weight="600" fill="#F1F5F9" letter-spacing="0.3">
+        Machine Learning Engineer <tspan fill="#64748B">·</tspan> 
+        <tspan fill="#F6C865">IEEE Published Researcher</tspan> <tspan fill="#64748B">·</tspan> 
+        <tspan fill="#38BDF8">National Gold Medalist</tspan>
+      </text>
+    </g>
+
+    <!-- Engineering Philosophy / Ethos -->
+    <g transform="translate(272, 160)">
+      <text class="mono" font-size="11" fill="#94A3B8" font-style="italic">
+        &quot;Precision in every dimension — from 10.9 bullseyes to sub-second clinical RAG.&quot;
+      </text>
+    </g>
+
+    <!-- Live Role Badge / Status Capsule -->
+    <g transform="translate(272, 177)">
+      <rect x="0" y="0" width="622" height="32" rx="6" ry="6" fill="#0C1322" stroke="#1E293B" stroke-width="1" />
+      <circle cx="16" cy="16" r="4.5" fill="#22C55E" class="live-dot" />
+      <text x="29" y="20" class="mono" font-size="10.8" font-weight="600" fill="#E2E8F0">
+        <tspan fill="#4ADE80" font-weight="700">NLP INTERN @ MIIMANSA AI</tspan>
+        <tspan fill="#475569"> ╎ </tspan>
+        <tspan fill="#CBD5E1">NHA ABDM Sandbox Exit Cleared (M1–M3)</tspan>
+        <tspan fill="#475569"> ╎ </tspan>
+        <tspan fill="#F6C865">FHIR R4 &amp; Redis Bus</tspan>
+      </text>
+    </g>
+
+    <!-- 4 Benchmarked Technical Metric Chips -->
+    <!-- Chip 1: Khelo India Gold -->
+    <g transform="translate(272, 222)">
+      <rect x="0" y="0" width="148" height="62" rx="6" ry="6" fill="#0E121D" stroke="#334155" stroke-width="0.9" />
+      <line x1="0" y1="0" x2="0" y2="62" stroke="#E8A020" stroke-width="2.5" />
+      <text x="12" y="20" class="mono" font-size="10" font-weight="700" fill="#E8A020">🎯 KHELO INDIA</text>
+      <text x="12" y="37" class="sans" font-size="12" font-weight="700" fill="#FFFFFF">Gold Medalist</text>
+      <text x="12" y="52" class="mono" font-size="8.5" fill="#94A3B8">7 National Medals</text>
+    </g>
+
+    <!-- Chip 2: 80% Hit@3 RAG -->
+    <g transform="translate(430, 222)">
+      <rect x="0" y="0" width="148" height="62" rx="6" ry="6" fill="#0E121D" stroke="#334155" stroke-width="0.9" />
+      <line x1="0" y1="0" x2="0" y2="62" stroke="#38BDF8" stroke-width="2.5" />
+      <text x="12" y="20" class="mono" font-size="10" font-weight="700" fill="#38BDF8">⚡ HINDI RAG</text>
+      <text x="12" y="37" class="sans" font-size="12" font-weight="700" fill="#FFFFFF">80% Hit@3</text>
+      <text x="12" y="52" class="mono" font-size="8.5" fill="#94A3B8">p95 839ms · Whisper</text>
+    </g>
+
+    <!-- Chip 3: Course Recommender Engine -->
+    <g transform="translate(588, 222)">
+      <rect x="0" y="0" width="148" height="62" rx="6" ry="6" fill="#0E121D" stroke="#334155" stroke-width="0.9" />
+      <line x1="0" y1="0" x2="0" y2="62" stroke="#4ADE80" stroke-width="2.5" />
+      <text x="12" y="20" class="mono" font-size="10" font-weight="700" fill="#4ADE80">📊 ADAPTLEARN</text>
+      <text x="12" y="37" class="sans" font-size="12" font-weight="700" fill="#FFFFFF">13.6k Courses</text>
+      <text x="12" y="52" class="mono" font-size="8.5" fill="#94A3B8">64.6% CV · SBERT DAG</text>
+    </g>
+
+    <!-- Chip 4: IEEE Publication & Academics -->
+    <g transform="translate(746, 222)">
+      <rect x="0" y="0" width="148" height="62" rx="6" ry="6" fill="#0E121D" stroke="#334155" stroke-width="0.9" />
+      <line x1="0" y1="0" x2="0" y2="62" stroke="#A78BFA" stroke-width="2.5" />
+      <text x="12" y="20" class="mono" font-size="10" font-weight="700" fill="#A78BFA">📑 RESEARCH</text>
+      <text x="12" y="37" class="sans" font-size="12" font-weight="700" fill="#FFFFFF">IEEE ICAICCIT</text>
+      <text x="12" y="52" class="mono" font-size="8.5" fill="#94A3B8">8.95 CGPA · DP-100</text>
+    </g>
+
+    <!-- Bottom Laser Accent Line -->
+    <rect x="10" y="316" width="900" height="2" fill="url(#laserGrad)" />
+  </g>
+
+  <!-- Container Border Frame -->
+  <rect x="2" y="2" width="916" height="316" rx="14" ry="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+</svg>
